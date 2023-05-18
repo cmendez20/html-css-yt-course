@@ -1,15 +1,40 @@
+body {
+  margin: 0;
+}
+
 p {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.thumbnail {
-  width: 100%;
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.search-bar {
-  display: block;
+.left-section {
+  background-color: lightblue;
+  width: 150px;
+}
+
+.middle-section {
+  background-color: lightpink;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+}
+
+.right-section {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.thumbnail {
+  width: 100%;
 }
 
 .video-title {
@@ -23,14 +48,6 @@ p {
 .video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;
-}
-
-.channel-picture {
-  background-color: gray;
-}
-
-.video-info {
-  background-color: gray;
 }
 
 .profile-picture {
