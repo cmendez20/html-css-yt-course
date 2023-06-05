@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding-top: 80px;
+  padding-left: 72px;
 }
 
 p {
@@ -9,10 +11,25 @@ p {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 55px;
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 72px;
 }
 
 .left-section {
